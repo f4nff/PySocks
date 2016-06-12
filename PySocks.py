@@ -34,29 +34,251 @@ def get_textarea(article):
 
 url = "https://proxybag.blogspot.com/"
 for article_url in get_article_urls():
-    all_proxies.update(get_textarea(article_url))
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+    
 
 url = "http://www.vipsocks24.net/"
 for article_url in get_article_urls():
-    all_proxies.update(get_textarea(article_url))
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+    
 
 url = "http://www.live-socks.net/"
 for article_url in get_article_urls():
-    all_proxies.update(get_textarea(article_url))
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
 
 url = "http://www.socks24.org/"
 for article_url in get_article_urls():
-    all_proxies.update(get_textarea(article_url))
-os.system("clear")
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
 
 url = "http://socksproxylist24.blogspot.com/"
 for article_url in get_article_urls():
-    all_proxies.update(get_textarea(article_url))
-os.system("clear")
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
 
 url = "http://msocks5.blogspot.com/"
 for article_url in get_article_urls():
-    all_proxies.update(get_textarea(article_url))
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Free%20Socks"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Free%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Free%20Socks%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Good%20Socks"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Good%20Socks%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Live%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Live%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Live%20Socks%205%20US%20Online"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Socks%205%20US%20Online"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Vip%20Socks"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Vip%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://msocks5.blogspot.com/search/label/Vip%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Live%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Live%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Socks%205%20US%20Online"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Vip%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Vip%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Vip%20Socks%20Online"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Live%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Live%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Socks%205%20US%20Online"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Vip%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Vip%20Socks%205%20US"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks5online.blogspot.com/search/label/Vip%20Socks%20Online"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://proxy-hunter.blogspot.com"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://proxy-hunter.blogspot.com/search/label/Anonymous%20Live%20Proxies"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://proxy-hunter.blogspot.com/search/label/Anonymous%20US%20Proxies"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://proxy-hunter.blogspot.com/search/label/Fresh%20Socks%205"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://globalproxies.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://globalproxies.blogspot.com/search/label/Canada%20Proxies"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://globalproxies.blogspot.com/search/label/France%20Proxies"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://globalproxies.blogspot.com/search/label/UK%20Proxies"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://globalproxies.blogspot.com/search/label/US%20Proxies"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socks-world.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://globalproxies.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://socksproxylist24.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://proxyserverlist-24.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
+url = "http://newfreshproxies24.blogspot.com/"
+for article_url in get_article_urls():
+	all_proxies = set(filter(None, all_proxies))
+	all_proxies.update(get_textarea(article_url))
+
 os.system("clear")
 
 #Proxy readout:
