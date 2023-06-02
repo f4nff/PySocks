@@ -21,7 +21,12 @@ Feel free to contact me on Skype: archercalder
 If you pull a request and fix a bug or add a new feature then please contact me to I can add you to the "Thanks Too..." section.
 
 debian11 install python2.7
+
 apt install python2.7
+
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+
 pip install Requests
+
 pip install bs4
+
